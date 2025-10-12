@@ -124,16 +124,6 @@
       <a href="#" class="btn">Enroll Now</a>
     </div>
 
-<div class="container">
-    <div class="course-card">
-      <div class="course-icon"><i class="fab fa-AI"></i></div>
-      <div class="course-title">Artifical Intelligence</div>
-      <div class="course-desc">
-        Master python
-      </div>
-      <a href="#" class="btn">Enroll Now</a>
-    </div>
-
     <div class="course-card">
       <div class="course-icon"><i class="fab fa-python"></i></div>
       <div class="course-title">Python Full Stack Development</div>
