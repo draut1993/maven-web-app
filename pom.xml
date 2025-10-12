@@ -7,7 +7,19 @@
   <version>3.0-RELEASE</version>
   <name>01-maven-web-app</name>
   <url>http://maven.apache.org</url>
- 
+ <distributionManagement> 
+		<repository>
+			<id>nexus</id>
+			<name>Deepak IT Releases Nexus Repo</name>
+			<url>http://52.23.187.93:8081/repository/DevOps-Profile-release/</url>
+		</repository>
+		
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>Deepak IT Snapshots Nexus Repo</name>
+			<url>http://52.23.187.93:8081/repository/DevOps-Profile-snapshot/</url>
+		</snapshotRepository>	
+  </distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
