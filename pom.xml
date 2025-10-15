@@ -11,13 +11,13 @@
 		<repository>
 			<id>nexus</id>
 			<name>Deepak IT Releases Nexus Repo</name>
-			<url>http://52.23.187.93:8081/repository/DevOps-Profile-release/</url>
+			<url>http://54.91.105.239:8081/repository/maven-releases/</url>
 		</repository>
 		
 		<snapshotRepository>
 			<id>nexus</id>
 			<name>Deepak IT Snapshots Nexus Repo</name>
-			<url>http://52.23.187.93:8081/repository/DevOps-Profile-snapshot/</url>
+			<url>http://54.91.105.239:8081/repository/maven-snapshots/</url>
 		</snapshotRepository>	
   </distributionManagement>
   <dependencies>
